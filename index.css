@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: whitesmoke;
+}
+
+.sidebar {
+  height: 95vh;
+  width: 72px;
+  margin: 15px;
+  text-align: center;
+}
+
+.sidebar ul {
+  background: #ffffff;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  /* border: solid; */
+  height: 100%;
+
+  gap: 32px;
+  padding: 10px;
+
+}
+.sidebar li > a {
+  width: 34px;
+  height: 44px;
+}
+
+.sidebar li:not(:first-child):hover {
+  background: #585454;
+}
+
+.sidebar li:last-child {
+  margin-top: auto;
+}
